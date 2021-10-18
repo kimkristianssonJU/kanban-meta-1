@@ -15,7 +15,7 @@ kanban-meta-1/
 ├── json/ <br>
 │⠀⠀⠀└── Alla JSON-filer <br>
 │  <br>
-└──  _Alla HTML-filer_ <br>
+└──  _<Alla HTML-filer\>_ <br>
 
 ## Regler i namngivning och språk
 
