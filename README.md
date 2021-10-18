@@ -7,7 +7,7 @@ kanban-meta-1/
 │⠀⠀⠀└── _\<Alla CSS-filer\>_ <br>
 │⠀⠀⠀│ <br>
 │⠀⠀⠀└── _modules/_ <br>
-│⠀⠀⠀⠀⠀⠀⠀└── _<\Alla module-filer\>_ <br>
+│⠀⠀⠀⠀⠀⠀⠀└── _\<Alla module-filer\>_ <br>
 │ <br>
 ├── js/ <br>
 │⠀⠀⠀└── _\<Alla JavaScript-filer\>_ <br>
