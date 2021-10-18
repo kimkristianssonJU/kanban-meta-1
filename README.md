@@ -3,19 +3,19 @@
 ## Struktur och organisering av filer
 kanban-meta-1/
 
-├── style/
-│⠀⠀⠀└── _<Alla CSS-filer>_ <br>
+├── style/ <br>
+│⠀⠀⠀└── <Alla CSS-filer> <br>
 │⠀⠀⠀│ <br>
 │⠀⠀⠀└── _modules/_ <br>
-│⠀⠀⠀⠀⠀⠀⠀└── _<Alla module-filer>_ <br>
+│⠀⠀⠀⠀⠀⠀⠀└── <Alla module-filer> <br>
 │ <br>
 ├── js/ <br>
-│⠀⠀⠀└── _<Alla JavaScript-filer>_ <br>
+│⠀⠀⠀└── <Alla JavaScript-filer> <br>
 │ <br>
 ├── json/ <br>
-│⠀⠀⠀└── _<Alla JSON-filer>_ <br>
+│⠀⠀⠀└── <Alla JSON-filer> <br>
 │  <br>
-└──  _<Alla HTML-filer>_ <br>
+└──  <Alla HTML-filer> <br>
 
 ## Regler i namngivning och språk
 
