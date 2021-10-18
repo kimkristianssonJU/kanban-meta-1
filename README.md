@@ -32,13 +32,13 @@ kanban-meta-1/
 * Filer döps med _snake_case_: `my_file.js`
 
 ## Referenser till källor och andra länkar
-**YouTube**
+**YouTube** <br>
 [How To Build Sortable Drag & Drop With Vanilla Javascript](https://www.youtube.com/watch?v=jfYWwQrtzzY&t=9s) <br>
 [Kom igång med moduler i Javascript](https://www.youtube.com/watch?v=tzl00lcD1Os&t=450s)
 
-**GitHub**
+**GitHub** <br>
 [GitHub - Kanban Meta 1](https://github.com/kimkristianssonJU/kanban-meta-1)
 
-**MDN Web Docs - Mozilla**
-[Klasser- JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes?retiredLocale=sv-SE)
+**MDN Web Docs - Mozilla** <br>
+[Klasser- JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes?retiredLocale=sv-SE) <br>
 [Objekt- JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
