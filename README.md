@@ -33,7 +33,7 @@ kanban-meta-1/
 
 ## Referenser till källor och andra länkar
 **YouTube**
-[How To Build Sortable Drag & Drop With Vanilla Javascript](https://www.youtube.com/watch?v=jfYWwQrtzzY&t=9s)
+[How To Build Sortable Drag & Drop With Vanilla Javascript](https://www.youtube.com/watch?v=jfYWwQrtzzY&t=9s) <br>
 [Kom igång med moduler i Javascript](https://www.youtube.com/watch?v=tzl00lcD1Os&t=450s)
 
 **GitHub**
