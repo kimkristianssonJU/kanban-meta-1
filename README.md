@@ -4,18 +4,18 @@
 kanban-meta-1/
 
 ├── style/ <br>
-│⠀⠀⠀└── <Alla CSS-filer> <br>
+│⠀⠀⠀└── Alla CSS-filer <br>
 │⠀⠀⠀│ <br>
 │⠀⠀⠀└── _modules/_ <br>
-│⠀⠀⠀⠀⠀⠀⠀└── <Alla module-filer> <br>
+│⠀⠀⠀⠀⠀⠀⠀└── Alla module-filer <br>
 │ <br>
 ├── js/ <br>
 │⠀⠀⠀└── <Alla JavaScript-filer> <br>
 │ <br>
 ├── json/ <br>
-│⠀⠀⠀└── <Alla JSON-filer> <br>
+│⠀⠀⠀└── Alla JSON-filer <br>
 │  <br>
-└──  <Alla HTML-filer> <br>
+└──  _Alla HTML-filer_ <br>
 
 ## Regler i namngivning och språk
 
