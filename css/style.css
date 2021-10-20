@@ -1,35 +1,47 @@
+
 body {
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: bisque;
-}
+    margin: auto;
+    background-image: linear-gradient(to right, #777 80%, #333);
+};
+
 
 .drop-container {
     display: flex;
     flex-direction: column;
     /*background-color: #333;*/
     padding: 1rem;
-    margin-top: 1rem;
-    border-left: 1px solid black;
-    min-height: 200px;
+    margin-top: .5rem;
+    border-right: 2px solid black;
+    height: 80vh;
 }
 .draggable {
     padding: 1rem;
-    background-color: white;
+    margin: .5rem;
+    background-color: #fff;
     border: 1px solid black;
     cursor: move;
+    border-radius: 5px;
 }
 .draggable.dragging {
     opacity: .5;
 }
 
 #status-wrapper {
-    display: flex;
+    display: none;
     flex-direction: row;
 }
 
 textarea {
     resize: none;
     display: block;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: #e2f6f7;
+}
+
+h3 {
+    text-align: center;
+    color: whitesmoke;
 }
