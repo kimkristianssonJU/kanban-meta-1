@@ -27,8 +27,10 @@ body {
     opacity: .5;
 }
 
+
 #status-wrapper {
     display: none;
+
     flex-direction: row;
 }
 
