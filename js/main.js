@@ -40,7 +40,7 @@ async function mainFunction() {
     else {
         // Gå till kanban
     }
-
+}
 
 addButtonFunc();
 dragAndDrop();
