@@ -1,23 +1,23 @@
 [
     {
-        "id":1,
+        "id":"",
         "description": "skapa inloggning",
-        "priority": 1,
+        "priority": 0,
         "status": "todo"
     },{
-        "id":2,
+        "id":"",
         "description": "drag n drop",
-        "priority": 1,
+        "priority": 0,
         "status": "done"
     }, {
-        "id":3,
+        "id":"",
         "description": "Html, css",
-        "priority": 3,
+        "priority": 0,
         "status": "doing"
     }, {
-        "id":4,
+        "id":"",
         "description": "Render table",
-        "priority": 2,
+        "priority": 1,
         "status": "doing"
     }
 ]

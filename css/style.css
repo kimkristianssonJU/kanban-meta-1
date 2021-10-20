@@ -1,0 +1,35 @@
+body {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+}
+
+.drop-container {
+    display: flex;
+    flex-direction: column;
+    /*background-color: #333;*/
+    padding: 1rem;
+    margin-top: 1rem;
+    border-left: 1px solid black;
+    min-height: 200px;
+}
+.draggable {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: move;
+}
+.draggable.dragging {
+    opacity: .5;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+textarea {
+    resize: none;
+    display: block;
+}
