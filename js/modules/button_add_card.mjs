@@ -1,5 +1,5 @@
 import { addCard } from "./add_card.mjs";
-
+// tillger knappen "Lägg till kort" funktion
 export function addButtonFunc() {
     const buttons = document.getElementsByClassName("btn-add-card");
     const dropContainers = document.getElementsByClassName("drop-container");
