@@ -15,8 +15,6 @@ export function dragAndDrop() {
                 // Child: .draggable
                 [...container.children].forEach((child, index) => {
                     if(child.classList.contains("draggable")) {
-                        // lagraId(index);
-
                         child.querySelector("p").textContent = index;
                     }
                 });

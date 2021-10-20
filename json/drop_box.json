@@ -1,0 +1,15 @@
+[
+    {
+        "id":"todo",
+        "name": "TODO"
+    },{
+        "id":"testing",
+        "name": "TESTING"
+    }, {
+        "id":"doing",
+        "name": "DOING"
+    }, {
+        "id":"done",
+        "name": "DONE"
+    }
+]
