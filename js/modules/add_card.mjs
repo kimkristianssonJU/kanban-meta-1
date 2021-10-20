@@ -1,4 +1,3 @@
-// customeCreateElement("html-tag", "attribute<id, klass>", "klassnamn", parent)
 import { customCreateElement } from "./create_element.mjs";
 import { dragAndDrop } from "./drag_and_drop.mjs";
 

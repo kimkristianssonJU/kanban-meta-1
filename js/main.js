@@ -2,10 +2,12 @@
 import { fetchThis } from "./modules/fetch_function.mjs"; // Fetch
 import { dragAndDrop } from "./modules/drag_and_drop.mjs";
 import { addButtonFunc } from "./modules/button_add_card.mjs";
+import { fillStatusLists } from "./modules/fill_status_lists.mjs";
 
 // Adresser till JSON-filerna
 const taskUrl = '../json/task.json';
 const usersUrl = '../json/users.json';
+
 
 const verificationKeyUser = "isVerfied";
 
@@ -38,7 +40,6 @@ async function mainFunction() {
     else {
         // Gå till kanban
     }
-}
 
 
 addButtonFunc();
