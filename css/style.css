@@ -5,10 +5,9 @@ body {
     background-image: linear-gradient(to right, #777 80%, #333);
 };
 
-
 .drop-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     /*background-color: #333;*/
     padding: 1rem;
     margin-top: .5rem;
@@ -28,9 +27,8 @@ body {
 }
 
 
-#status-wrapper {
-    display: none;
-
+#wrapper {
+    display: flex;
     flex-direction: row;
 }
 
