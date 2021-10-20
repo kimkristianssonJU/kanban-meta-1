@@ -3,7 +3,7 @@ import { dragAndDrop } from "./drag_and_drop.mjs";
 
 // Fyller listorna med tasks från task.json eller localStorage
 export function fillStatusLists(taskList) {
-    const statusList = document.getElementById("status-wrapper");
+    const statusList = document.getElementById("wrapper");
 
     for(const task of taskList) {
         for (const status of [...statusList.children]) {

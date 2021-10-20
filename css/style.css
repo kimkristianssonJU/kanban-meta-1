@@ -24,7 +24,7 @@ body {
     opacity: .5;
 }
 
-#status-wrapper {
+#wrapper {
     display: flex;
     flex-direction: row;
 }
