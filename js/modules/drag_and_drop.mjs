@@ -1,6 +1,10 @@
+import { globalTaskList } from "./global_list.mjs";
+import { taskStorageKey } from "./global_storage_key.mjs";
+
 export function dragAndDrop() {
     const draggables = document.querySelectorAll('.draggable');
     const containers = document.querySelectorAll('.drag-list-container');
+    let draggingObj = null;
 
     draggables.forEach((dragcontainer, index) => {
         dragcontainer.addEventListener('dragstart', () => {
@@ -9,16 +13,25 @@ export function dragAndDrop() {
 
         dragcontainer.addEventListener('dragend', () => {
             dragcontainer.classList.remove('dragging');
-
+            
             // Tillagd kod
             for (const container of containers) {
                 // Child: .draggable
                 [...container.children].forEach((child, index) => {
                     if(child.classList.contains("draggable")) {
-                        child.querySelector("p").textContent = index;
+                        for (const task of globalTaskList) {
+                            if(task.id === child.id) {
+                                task.priority = index;
+                                task.status = container.parentNode.id;
+                            }
+                        }
                     }
                 });
             }
+
+            globalTaskList.sort((a, b) => a.priority - b.priority);
+
+            localStorage.setItem(taskStorageKey, JSON.stringify(globalTaskList));
         })
     })
 

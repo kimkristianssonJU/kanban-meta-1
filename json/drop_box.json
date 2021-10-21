@@ -1,15 +1,18 @@
 [
     {
-        "id":"todo",
+        "id": "todo",
         "name": "TODO"
-    },{
-        "id":"testing",
-        "name": "TESTING"
-    }, {
-        "id":"doing",
+    },
+    {
+        "id": "doing",
         "name": "DOING"
-    }, {
-        "id":"done",
+    },
+    {
+        "id": "testing",
+        "name": "TESTING"
+    },
+    {
+        "id": "done",
         "name": "DONE"
     }
 ]
